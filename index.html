@@ -247,7 +247,7 @@ window.addEventListener("DOMContentLoaded", () => {
 	});
 	*/
 	
-		fetch("https://raw.githubusercontent.com/envivopy/trimi/refs/heads/main/trimi.csv" + getTimestampInSeconds())
+		fetch("https://raw.githubusercontent.com/envivopy/FLOW/refs/heads/main/trimi.csv" + getTimestampInSeconds())
 	.then(response => response.text())
 	.then(data => {
 		let lines = data.split("\n");
